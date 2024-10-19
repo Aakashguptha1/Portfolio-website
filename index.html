@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Portfolio - AAKASH</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+        <style>
+  .navtop {
+    background-color: #3f69a8;
+    height: 60px;
+    width: 100%;
+    border: 0;
+  }
+  .navtop div {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 10px;
+    width: 100%;
+    height: 100%;
+  }
+  .navtop div h1, .navtop div a {
+    display: inline-flex;
+    align-items: center;
+  }
+  .navtop div h1 {
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #ecf0f6;
+    font-weight: normal;
+  }
+  .navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #c5d2e5;
+    font-weight: bold;
+  }
+  .navtop div a i {
+    padding: 2px 8px 0 0;
+  }
+  .navtop div a:hover {
+    color: #ecf0f6;
+  }
+  .content {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  .content h2 {
+    margin: 0;
+    padding: 25px 0;
+    font-size: 22px;
+    border-bottom: 1px solid #ebebeb;
+    color: #666666;
+  }
+
+
+
+
+  .reviews .overall_rating .num {
+    font-size: 30px;
+    font-weight: bold;
+    color: #F5A624;
+}
+.reviews .overall_rating .stars {
+    letter-spacing: 3px;
+    font-size: 32px;
+    color: #F5A624;
+    padding: 0 5px 0 10px;
+}
+.reviews .overall_rating .total {
+    color: #777777;
+    font-size: 14px;
+}
+.reviews .write_review_btn, .reviews .write_review button {
+    display: inline-block;
+    background-color: #565656;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0 0 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0;
+}
+.reviews .write_review_btn:hover, .reviews .write_review button:hover {
+    background-color: #636363;
+}
+.reviews .write_review {
+    display: none;
+    padding: 20px 0 10px 0;
+}
+.reviews .write_review textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 150px;
+    margin-top: 10px;
+}
+.reviews .write_review input {
+    display: block;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.reviews .write_review button {
+    cursor: pointer;
+}
+.reviews .review {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+.reviews .review .name {
+    padding: 0 0 3px 0;
+    margin: 0;
+    font-size: 18px;
+    color: #555555;
+}
+.reviews .review .rating {
+    letter-spacing: 2px;
+    font-size: 22px;
+    color: #F5A624;
+}
+.reviews .review .date {
+    color: #777777;
+    font-size: 14px;
+}
+.reviews .review .content {
+    padding: 5px 0;
+}
+.reviews .review:last-child {
+    border-bottom: 0;
+}</style>
+        
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">AAKASH GUPTHA</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Professional Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certificates">Certifications</a></li>
+                  
+                    <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#paynow">Book Purchase</a></li>-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Rewards Bug Bounty">Rewards Bug Bounty</a></li>                    
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0 parallax" >
+            <!-- About-->
+            <section class="resume-section" id="home">
+                <div class="resume-section-content">
+                    <span class="d-block d-lg-none"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" width="150px" src="assets/img/profile.jpg" alt="..."></span>
+                    <h3 class="mb-0">
+                    
+                        <span class="text-primary">HI THERE !</span>
+                    </h3>
+                    <h2 class="mb-5">
+                     <span class="text-primary">I'M AAKASH GUPTHA G  <br>  </span>
+                    </h2>
+                   <p>
+                       <p style="color: #3498db;">Aakash Guptha G is a dedicated Cyber Security Analyst and Penetration Tester with a strong foundation in cybersecurity, currently pursuing an M.Sc. in Cyber Security from Bharathiar University. He holds a B.Sc. in Computer Science and has earned multiple certifications, including Certified in Cybersecurity (CC) from ISC2 and API Penetration Testing from APIsec University. Aakash has proactively identified and reported 10 security vulnerabilities through bug bounty platforms such as HackerOne and Bugcrowd, showcasing his expertise in web application security. With a solid skill set that includes OWASP Top Ten, SQLMap, and Burp Suite, he is committed to enhancing security measures across diverse environments..
+
+ </p>                   </p>
+                    <div class="social-icons">                                                              
+                        <a class="social-icon" target="_blank" href="https://www.instagram.com/aakash_guptha_/?utm_source=ig_web_button_share_sheet"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/aakash-guptha-b72577215"><i class="fab fa-linkedin-in"></i></a>
+                       
+
+                    </div>
+                </div>
+            </section>
+
+
+<!-- Experience -->
+<section class="resume-section" id="about">
+    <div class="resume-section-content">
+        <h2 class="mb-2" align="center">About Me</h2>
+
+        <hr>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h4><span class="text-primary">Name: Aakash Guptha G</span></h4>
+                <h4 class="text-capitalize"><span class="text-primary">Qualification: Master of Science in Cyber Security</span></h4>
+                <h4 class="text-capitalize"> <span class="text-primary">Designation: Penetration Tester | VAPT | Cyber Security Analyst</span></h4>
+                <h4 class="text-capitalize"> <span class="text-primary">Language: Tamil | English</span></h4>
+                <a href="upload/resume.pdf" class="btn btn-dark" download>Resume <i class="fa-solid fa-download"></i></a>
+            </div>
+            <div class="col-md-6">
+                <div class="row">   
+                    <div class="col-md-6 mt-4">
+                        <div class="box-bg p-2" align="center">
+                            <h2><span class="text-primary">Fresher</span></h2>
+                            <h4>Years Of Experience</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <div class="box-bg p-2" align="center">
+                            <h1><span class="text-primary">10+</span></h1>
+                            <h4>Projects Handled</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <div class="box-bg p-2" align="center">
+                            <h1><span class="text-primary">10+</span></h1>
+                            <h4>Certifications</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <div class="box-bg p-2" align="center">
+                            <h1><span class="text-primary">10</span></h1>
+                            <h4>Rewards for Bug Bounty</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+</section>
+<hr class="m-0" />
+
+            <!-- Education-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-2" align="center">Professional Experience</h2>
+                    <hr>
+                    <div class="row">  
+
+					<div class="col-md-4">
+					
+                            <div class="box-d">
+                            <span><img src="https://www.cybervoyage.in/assets/img/experience.png" width="80"><!--<i class="fas fa-graduation-cap"></i>--></span>
+                            <h3 class="text-capitalize">Web Application Penetration Testing Intern</h3>
+                            <p style="color: #3498db;">Worked at ILife Technologies on web application security, API penetration testing, and OWASP Top Ten vulnerabilities.</p>
+                            </div>
+                        </div>
+                                              
+                         <div class="col-md-4">
+					
+                            <div class="box-d">
+                            <span><img src="https://www.cybervoyage.in/assets/img/experience.png" width="80"><!--<i class="fas fa-graduation-cap"></i>--></span>
+                            <h3 class="text-capitalize">Network Infrastructure Analyst</h3>
+                            <p style="color: #3498db;"><b>Company:</b> Surprise Furniture <br> 
+                            <b>Role:</b> Internship <br>
+                            <b>Duration:</b> Aug 2024 - Oct 2024 (3 months) <br>
+                            <b>Location:</b> Coimbatore, Tamil Nadu, India (On-site)
+                            </p>
+                            <p style="color: #3498db;"> Network infrastructure assessment and firewall configuration discovery led to a comprehensive understanding of existing architecture. Proposed cloud solutions, including pricing details and implementation strategies. Developed software to identify and analyze duplicate files, enhancing efficiency and organization in data management. <br> 
+                            <b>Skills:</b> Network-Attached Storage (NAS), Firewall, Nmap, Wireshark.
+                            </p>
+                            </div>
+                        </div>                      
+                                                
+                    </div>
+                </div>
+            </section>
+			
+			<!-- certificates-->
+            <hr class="m-0" />
+            <section class="resume-section" id="certificates">
+                <div class="resume-section-content">
+                    <h2 class="mb-2" align="center">Certifications</h2>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-2">
+                           <img src="logo/ISC2.png" width="100%" >
+                        </div>
+                        <div class="col-md-2">
+                           <img src="logo/API.png" width="100%">
+                        </div>
+                        <div class="col-md-2">
+                           <img src="logo/CNSP.png" width="100%">
+                        </div>
+                        
+                        <div class="col-md-2">
+                           <img src="logo/NPTEL2.png" width="100%">
+                        </div>
+						
+						 <div class="col-md-2">
+                           <img src="logo/NPTEL.jpg" width="100%">
+                        </div>
+                        
+						 <div class="col-md-2">
+                           <img src="logo/EH.jpg" width="100%">
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="Rewards Bug Bounty">
+                <div class="resume-section-content">
+                    <h2 class="mb-2" align="center">Report in Bug bounty </h2>
+                    <hr>
+                    <div class="row">  
+
+					<div class="col-md-4">
+					
+                            <div class="box-d">
+                            <span><img src="https://www.cybervoyage.in/assets/img/experience.png" width="80"><!--<i class="fas fa-graduation-cap"></i>--></span>
+                            <h3 class="text-capitalize">Bug Bounty platforms</h3>
+                            <p style="color: #3498db;">Proactively identified and Reported 10 Security Vulnerabilities through bug bounty platforms like
+Hackerone and Bugcrowd, as well as various Vulnerability Disclosure Programs.</p>
+                            </div>
+                        </div>
+                                              
+                         <div class="col-md-4">
+					
+                            <div class="box-d">
+                            <span><img src="https://www.cybervoyage.in/assets/img/experience.png" width="80"><!--<i class="fas fa-graduation-cap"></i>--></span>
+                            <h3 class="text-capitalize">Global</h3>
+                          <p style="color: #3498db;">
+						  <b>Company Link:</b><a href= https://global.com/>https://global.com/</a><br><br>
+                            <b>Description:</b> An Amazon Web Services (AWS) S3 object has been found to be publicly accessible, potentially exposing sensitive data to unauthorized users. <br><br>
+                            <b>CVSS Score:</b>Low<br>
+                            
+                            </p>
+                            
+                            </div>
+                        </div>                      
+                         
+<div class="col-md-4">
+					
+                            <div class="box-d">
+                            <span><img src="https://www.cybervoyage.in/assets/img/experience.png" width="80"><!--<i class="fas fa-graduation-cap"></i>--></span>
+                            <h3 class="text-capitalize">skyscanner</h3>
+                          <p style="color: #3498db;">
+						  <b>Company Link:</b><a href= https://www.skyscanner.co.in//>https://www.skyscanner.co.in/</a><br><br>
+                            <b>Description:</b> A vulnerability was discovered in Skyscanner's CloudFront configuration, allowing an attacker to bypass the CloudFront firewall and access the origin server's IP addresses. Further investigation revealed that the origin server is vulnerable to CVE-2023-48795, a known vulnerability that could be exploited to gain unauthorized access.<br><br>
+                            <b>CVSS Score:</b>High<br>
+                            
+                            </p>
+                            
+                            </div>
+                        </div>   
+
+<div class="col-md-4">
+ <div class="box-d">
+ 
+                            <span><img src="https://www.cybervoyage.in/assets/img/experience.png" width="80"><!--<i class="fas fa-graduation-cap"></i>--></span>
+                            <h3 class="text-capitalize">skyscanner</h3>
+                          <p style="color: #3498db;">
+						  <b>Company Link:</b><a href= https://www.skyscanner.co.in/>https://www.skyscanner.co.in/</a><br><br>
+                            <b>Description:</b> A vulnerability was discovered in Skyscanner's login functionality, allowing an attacker to bypass the rate limit on login attempts. This could potentially lead to brute-force attacks on user accounts.<br><br>
+                            <b>CVSS Score:</b>Low<br>
+                            
+                            </p>
+                            </div>
+                            </div>
+							
+							<div class="col-md-4">
+							 <div class="box-d">
+                            <span><img src="https://www.cybervoyage.in/assets/img/experience.png" width="80"><!--<i class="fas fa-graduation-cap"></i>--></span>
+                            <h3 class="text-capitalize">Airmeet</h3>
+                          <p style="color: #3498db;">
+						  <b>Company Link:</b><a href= https://www.airmeet.com/>https://www.airmeet.com/</a><br><br>
+                            <b>Description:</b> A vulnerability was discovered in Airmeet's Cloudflare configuration, allowing an attacker to bypass the Web Application Firewall (WAF) and access the origin server's IP address.<br><br>
+                            <b>CVSS Score:</b>Low<br>
+                            
+                            </p>
+                            </div>
+                            </div>
+							
+							
+                        </div>   
+
+
+						 
+                    </div>
+                </div>
+            </section>
+            <!-- Interests-->
+            <section class="resume-section" id="contact">
+                <div class="resume-section-content">
+                    <h2 class="mb-3" align="center">Contact Me</h2>
+                    <hr>
+                    <h4 class="text-lowercase"><i class="fas fa-envelope"></i> aakashgupthagwapt@gmail.com</h4>
+                   
+                    <h4 class="text-capitalize"><i class="fas fa-map-marker-alt"></i> Tiruchirappalli</h4>
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+          
+                    
+    </body>
+</html>
